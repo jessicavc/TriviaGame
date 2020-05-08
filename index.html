@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Star Trek Trivia!</title>
     <!-- Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
 </head>
+
 <body>
-    
 
+    <div class="container">
 
+        <h1>Star Trek Trivia!</h1>
 
+        <div id="quiz" class="main-content">
 
-     <!-- JQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <button id="start" class="button">Start</button>
 
-  <!-- Main Game Logic  -->
-  <script src="./assets/javascript/app.js"></script> 
+            <!-- Time Remaining -->
+            <div id="time"></div>
+
+            <!-- Questions & Answers -->
+            <div id="question1"></div>
+            <div id="answer1"></div>
+            <div id="question2"></div>
+            <div id="answer2"></div>
+            <div id="question3"></div>
+            <div id="answer3"></div>
+            <div id="question4"></div>
+            <div id="answer4"></div>
+            <div id="question5"></div>
+            <div id="answer5"></div>
+            <div id="question6"></div>
+            <div id="answer6"></div>
+            <div id="question7"></div>
+            <div id="answer7"></div>
+            <div id="question8"></div>
+            <div id="answer8"></div>
+            <div id="submit"></div>
+
+            <!-- Results -->
+            <div id="resultsMessage"></div>
+            <div id="correct"></div>
+            <div id="incorrect"></div>
+            <div id="unanswered"></div>
+
+        </div>
+
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Main Game Logic  -->
+    <script src="./assets/javascript/app.js"></script>
 </body>
+
 </html>
