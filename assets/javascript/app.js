@@ -223,10 +223,12 @@ function displayResults() {
     $("#incorrect").html("Incorrect Answers: " + incorrectAnswers);
     $("#unanswered").html("Unanswered: " + unanswered);
 }
-
+//set unanswered, correctAnswers, and incorrectAnswer to 0 to prevent score incrementing after game is finished
 // Function keeps score in terms of correct, incorrect, and unanswered 
 function keepingScore() {
-
+    unanswered = 0;
+    correctAnswers = 0;
+    incorrectAnswers = 0;
     var userAnswer1 = $("input[name='answer1']:checked").val();
     var userAnswer2 = $("input[name='answer2']:checked").val();
     var userAnswer3 = $("input[name='answer3']:checked").val();
