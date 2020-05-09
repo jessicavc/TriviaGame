@@ -1,4 +1,4 @@
-var timer = 60;
+var timer = 90;
 
 var intervalId;
 
@@ -61,7 +61,7 @@ $("#start").on("click", function () {
     $(this).hide();
 
     // Display initial time countdown
-    $("#timer").html("<h3>Time Remaining: 60 Seconds</h3>" + "<br>");
+    $("#timer").html("<h3>Time Remaining: 90 Seconds</h3>" + "<br>");
 
     // Start timer countdown
     run();
