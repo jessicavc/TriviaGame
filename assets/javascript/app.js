@@ -64,7 +64,7 @@ $("#start").on("click", function () {
     $("#timer").html("<h3>Time Remaining: 90 Seconds</h3>" + "<br>");
 
     // Start timer countdown
-    // run();
+    run();
 
 
     // Question 1
