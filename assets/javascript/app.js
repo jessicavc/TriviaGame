@@ -64,7 +64,7 @@ $("#start").on("click", function () {
     $("#timer").html("<h3>Time Remaining: 90 Seconds</h3>" + "<br>");
 
     // Start timer countdown
-    run();
+    // run();
 
 
     // Question 1
@@ -218,7 +218,8 @@ function displayResults() {
     $("#answer10").hide();
     $("#submit").hide();
 
-    $("#resultsMessage").html("<h3>Time has elapsed. Let's see how you did: </h3>");
+    $("#resultsMessage").html("<h3>Space: the final frontier. How boldly did you go? </h3>");
+    
     $("#correct").html("Correct Answers: " + correctAnswers);
     $("#incorrect").html("Incorrect Answers: " + incorrectAnswers);
     $("#unanswered").html("Unanswered: " + unanswered);
