@@ -22,7 +22,7 @@ var questions = [{
     answer: 1
 }, {
     question: "In Star Trek IV: The Voyage Home, the crew of the Enterprise travel back in time to retrieve an animal to help them communicate with an alien probe. Which animal did they retrieve?",
-    answerList: ["Woolly Mammoth", "Blue Nose Dolphin", "Tiger Shark", "Humped Back Whale"],
+    answerList: ["Woolly Mammoth", "Blue Nose Dolphin", "Tiger Shark", "Humpback Whale"],
     answer: 3
 }, {
     question: "Neelix helps guide Voyager through the Delta Quadrant. Neelix wears many hats aboard Voyager, including a Chef's hat. What other role does Neelix assume?",
