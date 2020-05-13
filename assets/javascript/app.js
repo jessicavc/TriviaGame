@@ -368,7 +368,7 @@ function keepingScore() {
     }
 
     // Question 10
-    if (userAnswer7 === undefined) {
+    if (userAnswer10 === undefined) {
 
         unanswered++;
     }
